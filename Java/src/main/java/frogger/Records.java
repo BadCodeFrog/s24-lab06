@@ -9,7 +9,8 @@ import java.util.List;
  * @author Zishen Wen (F22), Deyuan Chen (S22)
  */
 public class Records {
-    private final List<String[]> records;
+    // private final List<String[]> records;
+    private final List<FroggerID> records;
 
     public Records() {
         this.records = new ArrayList<>();
